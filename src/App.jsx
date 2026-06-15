@@ -22,7 +22,6 @@ const ROLES_META = {
   gerant:     { label: "Gérant",       icon: "◆", color: "#B8973A" },
   cogerant:   { label: "Co-Gérant",    icon: "◇", color: "#B45309" },
   architecte: { label: "Architecte",   icon: "▲", color: "#2E4057" },
-  architecte Principale: { label: "Architecte Admin",   icon: "▲", color: "#2E4057" },
   ingenieur:  { label: "Ingénieur GC", icon: "●", color: "#1C2B3A" },
   secretaire: { label: "Réception",    icon: "■", color: "#8A8F99" },
 };
@@ -32,9 +31,9 @@ const INIT_MEMBRES = [
   { id: 2, nom: "Sid Ahmed",   prenom: "",       role: "cogerant",   tel: "", email: "", note: "Co-gérant & frère" },
   { id: 3, nom: "Hanane",      prenom: "",       role: "architecte", tel: "", email: "", note: "" },
   { id: 4, nom: "Ahmed",       prenom: "",       role: "architecte", tel: "", email: "", note: "" },
-  { id: 5, nom: "Aymen",       prenom: "",       role: "architecte Principale", tel: "", email: "", note: "" },
+  { id: 5, nom: "Aymen",       prenom: "",       role: "architecte", tel: "", email: "", note: "" },
   { id: 6, nom: "Azzedine",    prenom: "",       role: "architecte", tel: "", email: "", note: "" },
-  { id: 7, nom: "Hfedh",       prenom: "",       role: "architecte", tel: "", email: "", note: "" },
+  { id: 7, nom: "Aymen",       prenom: "2ème",   role: "architecte", tel: "", email: "", note: "" },
   { id: 8, nom: "Ingénieur GC",prenom: "",       role: "ingenieur",  tel: "", email: "", note: "Génie Civil" },
   { id: 9, nom: "Hanane",      prenom: "Réc.",   role: "secretaire", tel: "", email: "", note: "Accueil & réception" },
 ];
